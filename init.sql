@@ -20,14 +20,3 @@ CREATE TABLE `Hotel_Booking`.`booking` (
     ON DELETE CASCADE
     ON UPDATE NO ACTION);
 
-
-/*
-INSERT INTO room (room_description, room_price) VALUES ('Комната 1-21', 101.23);
-
-INSERT INTO booking (idroom, date_start, date_end) VALUES (
-	(SELECT idroom FROM room WHERE room_description = 'Комната 1-21'),
-    '2021-01-13', '2021-01-20'
-);
-
-
-*/
